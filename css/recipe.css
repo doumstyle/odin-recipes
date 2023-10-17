@@ -24,7 +24,8 @@ body {
   flex-direction: column;
 }
 
-.description p {
+.description p,
+.cooking {
   font-size: 21px;
 }
 
@@ -37,8 +38,10 @@ body {
   border-radius: 10px;
 }
 
-.ingredients {
+.ingredients,
+.steps {
   text-align: center;
+  margin: 2em 0;
 }
 
 .ingredients ul {
@@ -48,4 +51,18 @@ body {
   width: 800px;
   font-size: 18px;
   line-height: 32px;
+}
+
+.steps ol {
+  text-align: left;
+  margin: 0 auto;
+  width: 800px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.cooking {
+  width: 800px;
+  text-align: center;
+  margin: 2em auto;
 }
